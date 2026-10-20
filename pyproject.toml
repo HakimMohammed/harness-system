@@ -7,7 +7,11 @@ authors = [
     { name = "Mohamed Hakim", email = "mohamed.hakim.dev@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "langchain[mistral,mistralai]>=1.4.6",
+    "pydantic-settings>=2.16.1",
+    "rich>=15.0.0",
+]
 
 [project.scripts]
 harness-system = "harness_system:main"
