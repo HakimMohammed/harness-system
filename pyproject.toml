@@ -1,0 +1,17 @@
+[project]
+name = "harness-system"
+version = "0.1.0"
+description = "Harness System built with langchain framework"
+readme = "README.md"
+authors = [
+    { name = "Mohamed Hakim", email = "mohamed.hakim.dev@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+harness-system = "harness_system:main"
+
+[build-system]
+requires = ["uv_build>=0.12.18,<0.13.0"]
+build-backend = "uv_build"
